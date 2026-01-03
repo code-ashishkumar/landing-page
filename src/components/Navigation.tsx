@@ -42,7 +42,7 @@ export default function Navigation() {
             whileHover={{ y: -2 }}
             className="text-sm font-medium tracking-wider uppercase hover:opacity-60 transition"
           >
-            Who It's For
+            Who It&apos;s For
           </motion.a>
           <motion.a
             href="/#pricing"
