@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function FinalCTA() {
   return (
-    <section className="min-h-screen bg-black text-white flex items-center justify-center relative overflow-hidden px-8">
+    <section className="min-h-screen bg-primary text-white flex items-center justify-center relative overflow-hidden px-8">
       {/* Animated Background Elements */}
       <motion.div
         animate={{
@@ -16,7 +16,7 @@ export default function FinalCTA() {
           repeat: Infinity,
           ease: 'linear'
         }}
-        className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-purple-600/20 to-transparent rounded-full blur-3xl"
+        className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-white/10 to-transparent rounded-full blur-3xl"
       />
       <motion.div
         animate={{
@@ -28,7 +28,7 @@ export default function FinalCTA() {
           repeat: Infinity,
           ease: 'linear'
         }}
-        className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-blue-600/20 to-transparent rounded-full blur-3xl"
+        className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-white/10 to-transparent rounded-full blur-3xl"
       />
 
       <div className="max-w-6xl mx-auto text-center relative z-10">
@@ -61,7 +61,7 @@ export default function FinalCTA() {
             <motion.button
               whileHover={{ scale: 1.1, backgroundColor: '#ffffff' }}
               whileTap={{ scale: 0.9 }}
-              className="px-12 py-5 bg-white text-black text-xl font-bold rounded-full transition-all"
+              className="px-12 py-5 bg-white text-primary text-xl font-bold rounded-full transition-all"
             >
               Start Free Trial
             </motion.button>

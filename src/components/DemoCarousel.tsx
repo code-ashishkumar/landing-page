@@ -35,7 +35,7 @@ export default function DemoCarousel() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-32 px-8 bg-black text-white overflow-hidden">
+    <section ref={sectionRef} className="py-32 px-8 bg-primary text-white overflow-hidden">
       <div className="mb-24">
         <div className="scroll-text text-9xl font-bold whitespace-nowrap opacity-10">
           INNOVATION • EDUCATION • TRANSFORMATION • INNOVATION • EDUCATION •

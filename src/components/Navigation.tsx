@@ -1,24 +1,13 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
 
 export default function Navigation() {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 50);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   return (
     <motion.nav 
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/80 backdrop-blur-xl shadow-lg' : 'bg-transparent'
-      }`}
+      className="absolute top-0 w-full z-50"
     >
       <div className="max-w-7xl mx-auto px-8 py-6 flex items-center justify-between">
         <motion.a 
@@ -42,7 +31,7 @@ export default function Navigation() {
             whileHover={{ y: -2 }}
             className="text-sm font-medium tracking-wider uppercase hover:opacity-60 transition"
           >
-            Who It&apos;s For
+            Who It's For
           </motion.a>
           <motion.a
             href="/#pricing"
@@ -63,7 +52,7 @@ export default function Navigation() {
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="px-6 py-3 rounded-full bg-black text-white font-semibold text-sm tracking-wide"
+          className="px-6 py-3 rounded-full bg-primary text-white font-semibold text-sm tracking-wide shadow-lg shadow-primary/20"
         >
           Start Free Trial
         </motion.button>

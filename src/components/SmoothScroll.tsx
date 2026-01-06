@@ -15,9 +15,17 @@ export default function SmoothScroll({ children }: { children: React.ReactNode }
         scroll = new LocomotiveScroll({
         el: scrollRef.current,
         smooth: true,
-        multiplier: 0.8,
-        lerp: 0.1,
-        class: 'is-reveal'
+        multiplier: 0.8, // Reduced for less aggressive scrolling
+        lerp: 0.1, // Lower value = smoother/slower scroll interpolation
+        class: 'is-reveal',
+        smartphone: {
+          smooth: true,
+          // multiplier: 0.6
+        },
+        tablet: {
+          smooth: true,
+          // multiplier: 0.7
+        }
       });
 
         // Update scroll after a short delay to ensure proper initialization
