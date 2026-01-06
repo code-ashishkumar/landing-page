@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function ProblemSolution() {
   const challenges = [
@@ -77,15 +78,17 @@ export default function ProblemSolution() {
               </h2>
 
               <p className="text-lg text-gray-700 leading-relaxed mb-3">
-                Praxis automatically simplifies complex text to each student's comprehension level and uses emoji-based responses to measure understanding—making learning accessible and progress measurable.
+                Praxis automatically simplifies complex text to each student&apos;s comprehension level and uses emoji-based responses to measure understanding—making learning accessible and progress measurable.
               </p>
             </div>
 
             <div className="rounded-xl overflow-hidden shadow-lg">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80"
                 alt="Student learning with accessible materials"
                 className="w-full h-auto"
+                width={800}
+                height={600}
               />
             </div>
 

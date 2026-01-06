@@ -41,9 +41,9 @@ export default function ContactPage() {
             {/* Left Column - Text Content */}
             <div className="space-y-6">
               <div>
-                <h2 className="text-2xl font-bold mb-3 text-gray-900">Let's Talk</h2>
+                <h2 className="text-2xl font-bold mb-3 text-gray-900">Let&apos;s Talk</h2>
                 <p className="text-base text-gray-600 leading-relaxed">
-                  Have questions about Praxis? Want to see how we can help your students succeed? We'd love to hear from you.
+                  Have questions about Praxis? Want to see how we can help your students succeed? We&apos;d love to hear from you.
                 </p>
               </div>
 
