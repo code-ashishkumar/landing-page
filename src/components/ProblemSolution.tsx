@@ -49,7 +49,7 @@ export default function ProblemSolution() {
                     </div> */}
                     <div className="flex-1">
                       <div className="flex items-center gap-2 mb-1">
-                        <div className="w-6 h-0.5 bg-primary" />
+                        {/* <div className="w-6 h-0.5 bg-primary" /> */}
                         <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">
                           0{index + 1}
                         </span>
@@ -78,7 +78,7 @@ export default function ProblemSolution() {
               </h2>
 
               <p className="text-lg text-gray-700 leading-relaxed mb-3">
-                Praxis automatically simplifies complex text to each student&apos;s comprehension level and uses emoji-based responses to measure understanding—making learning accessible and progress measurable.
+                Praxis automatically simplifies complex text to each student&apos;s comprehension level and uses emoji-based responses to measure understanding, making learning accessible and progress measurable.
               </p>
             </div>
 

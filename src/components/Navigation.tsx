@@ -7,9 +7,9 @@ export default function Navigation() {
     <motion.nav 
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="absolute top-0 w-full z-50"
+      className="fixed top-0 w-full z-50 bg-transparent backdrop-blur-3xl"
     >
-      <div className="max-w-7xl mx-auto px-8 py-6 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-8 py-5 flex items-center justify-between">
         <motion.a 
           href="/"
           whileHover={{ scale: 1.05 }}
