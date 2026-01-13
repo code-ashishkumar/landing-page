@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function FinalCTA() {
   return (
-    <section className="min-h-screen bg-primary text-white flex items-center justify-center relative overflow-hidden px-8">
+    <section className="min-h-screen bg-primary text-white flex items-center justify-center relative overflow-hidden px-9">
       {/* Animated Background Elements */}
       <motion.div
         animate={{

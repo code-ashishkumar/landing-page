@@ -23,8 +23,8 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="bg-white py-12 px-6" id="features">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-white py-12 px-9" id="features">
+      <div className="max-w-7xl mx-auto ">
         <div className="text-center mb-10">
           <div className="text-xs font-semibold tracking-widest uppercase mb-3 text-primary">
             What We Offer

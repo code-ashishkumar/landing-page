@@ -13,7 +13,7 @@ export default function ThreeScene() {
   ];
 
   return (
-    <section className="min-h-screen bg-white flex items-center relative overflow-hidden">
+    <section className="min-h-screen bg-white px-9 flex items-center relative overflow-hidden">
       {/* Floating Emojis Background */}
       <div className="absolute right-0 top-0 bottom-0 w-1/2 z-0">
         {floatingEmojis.map((item, i) => (

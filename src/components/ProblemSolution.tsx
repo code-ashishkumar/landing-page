@@ -24,7 +24,7 @@ export default function ProblemSolution() {
 
   return (
     <section className="bg-white py-10 px-6">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-9">
         <div className="grid md:grid-cols-2 gap-8 items-start">
           {/* Challenges Side */}
           <div>

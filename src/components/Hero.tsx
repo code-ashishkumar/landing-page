@@ -34,7 +34,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative  overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50 text-gray-900 py-16 lg:py-24">
+    <section className="relative  overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50 text-gray-900 pt-[64px] lg:pt-[96px] ">
       {/* Background Elements */}
       {/* <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_0%_0%,rgba(82,114,173,0.05),transparent_40%)]" />

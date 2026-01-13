@@ -20,8 +20,8 @@ const personas = [
 
 export default function Personas() {
   return (
-    <section className="py-12 px-6 bg-white" id="who-its-for">
-      <div className="max-w-7xl mx-auto">
+    <section className="py-12 px-9 bg-white" id="who-its-for">
+      <div className="max-w-7xl mx-auto ">
         <div className="text-center mb-10">
           <div className="text-xs font-semibold tracking-widest uppercase mb-3 text-primary">
             Who We Serve

@@ -1,5 +1,9 @@
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
+import Mission from '@/components/Mission';
+import OriginStory from '@/components/OriginStory';
+import HowItWorks from '@/components/HowItWorks';
+import ProductShowcase from '@/components/ProductShowcase';
 import ThreeScene from '@/components/ThreeScene';
 import ProblemSolution from '@/components/ProblemSolution';
 import Features from '@/components/Features';
@@ -15,6 +19,10 @@ export default function Home() {
     <main className="bg-white">
       <Navigation />
       <Hero />
+      <Mission />
+      <OriginStory />
+      <HowItWorks />
+      <ProductShowcase />
       <ProblemSolution />
 
       {/* <ThreeScene /> */}
